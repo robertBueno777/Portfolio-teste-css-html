@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+* {
+    /* temos aqui o margin( q obviamente é a margem) e o padding que é o é uma propriedade que define a distância entre o conteúdo de um elemento e as suas bordas */
+    margin: 10px;;
+    padding: 0px;
+}
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black; /*essa aqui é a cor do fundo*/
+    color: #f6f6f6; /* essa aqui é a cor da letra */
+}
+
+.titulo-destaque { /* o nome dessa paradinha ta diferente pq a gente ta dando cor á uma classe. */
+    color: #22d4fd;
+}
+
+.apresentacao{
+    margin: 10% 15%;
+    display: flex; 
+    align-items: center;/* vai colocar todos os itens alinhados no meio*/
+    justify-content: space-between;/* coloca um espaço entre os items */
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: "Krona One", serif;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24;
+    font-family: "Montserrat", serif;
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link{
+    background-color: #22d4fd;
+    font-weight: 600px;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", serif;
+}
